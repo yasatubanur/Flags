@@ -14,6 +14,7 @@
 		ABAE6CD127C6477500F1473E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABAE6CD027C6477500F1473E /* Assets.xcassets */; };
 		ABAE6CD427C6477500F1473E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABAE6CD227C6477500F1473E /* LaunchScreen.storyboard */; };
 		ABF1EA8A27C7CC68001E9D62 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF1EA8927C7CC68001E9D62 /* DetailViewController.swift */; };
+		ABF1EA8C27C945A6001E9D62 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF1EA8B27C945A6001E9D62 /* HomeVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		ABAE6CD327C6477500F1473E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABAE6CD527C6477500F1473E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABF1EA8927C7CC68001E9D62 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		ABF1EA8B27C945A6001E9D62 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				ABAE6CD227C6477500F1473E /* LaunchScreen.storyboard */,
 				ABAE6CD527C6477500F1473E /* Info.plist */,
 				ABF1EA8927C7CC68001E9D62 /* DetailViewController.swift */,
+				ABF1EA8B27C945A6001E9D62 /* HomeVC.swift */,
 			);
 			path = Flags;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABAE6CCC27C6477400F1473E /* ViewController.swift in Sources */,
+				ABF1EA8C27C945A6001E9D62 /* HomeVC.swift in Sources */,
 				ABF1EA8A27C7CC68001E9D62 /* DetailViewController.swift in Sources */,
 				ABAE6CC827C6477400F1473E /* AppDelegate.swift in Sources */,
 				ABAE6CCA27C6477400F1473E /* SceneDelegate.swift in Sources */,
