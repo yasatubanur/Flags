@@ -57,17 +57,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Detay Sayfası" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ebf-v1-qMB">
-                                <rect key="frame" x="186" y="438" width="104" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="y0Z-5n-bZG">
+                                <rect key="frame" x="5" y="54" width="404" height="798"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="1ZP-3d-vhW"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="y0Z-5n-bZG" firstAttribute="leading" secondItem="1ZP-3d-vhW" secondAttribute="leading" constant="5" id="53e-8r-d1b"/>
+                            <constraint firstItem="1ZP-3d-vhW" firstAttribute="bottom" secondItem="y0Z-5n-bZG" secondAttribute="bottom" constant="10" id="ebD-5z-FA0"/>
+                            <constraint firstItem="1ZP-3d-vhW" firstAttribute="trailing" secondItem="y0Z-5n-bZG" secondAttribute="trailing" constant="5" id="jZ7-hh-kMx"/>
+                            <constraint firstItem="y0Z-5n-bZG" firstAttribute="top" secondItem="1ZP-3d-vhW" secondAttribute="top" constant="10" id="mdD-ll-DDu"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="y0Z-5n-bZG" id="hY2-27-dru"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QxN-Dl-ALp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
