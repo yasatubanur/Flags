@@ -18,7 +18,7 @@ class HomeVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         tableView.dataSource = self
         
         self.title = "Flags"
-        
+        navigationController?.navigationBar.prefersLargeTitles = true
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
